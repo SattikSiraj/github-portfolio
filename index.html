@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sattik Siraj</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <a href="#" class="nav-logo">Sattik`S<span class="dot">.</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#about" class="mobile-link">About</a></li>
+      <li><a href="#work" class="mobile-link">Work</a></li>
+      <li><a href="#skills" class="mobile-link">Skills</a></li>
+      <li><a href="#contact" class="mobile-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="hero-orb orb-1"></div>
+      <div class="hero-orb orb-2"></div>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal-up">Available for work &nbsp;·&nbsp; Open to opportunities</p>
+      <h1 class="hero-title reveal-up delay-1">
+        <span class="line">Hi, I'm</span>
+        <span class="line name-line">Sattik Siraj<span class="cursor-blink">_</span></span>
+      </h1>
+      <p class="hero-sub reveal-up delay-2">
+          Research Assistant at Health Informatics Research Lab (HIRL), DIU<br />
+  focused on Machine Learning, Computer Vision, and applied AI research.
+      </p>
+      <div class="hero-cta reveal-up delay-3">
+        <a href="#work" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-ghost">Let's Talk</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-label reveal-up">01 — About</div>
+      <div class="about-grid">
+        <div class="about-text reveal-up delay-1">
+          <h2 class="section-title">Building intelligent<br />systems that matter.</h2>
+          <p>I'm a Computer Science student and Research Assistant at the Health Informatics Research Lab (HIRL), DIU, based in Dhaka, Bangladesh. I'm interested in Machine Learning, Computer Vision, and building practical AI solutions for real-world problems.</p>
+          <p>Beyond research, I enjoy exploring modern software technologies, working on personal projects, and continuously learning about intelligent systems and scalable computing.</p>
+          <a href="resume.pdf" class="btn btn-outline" target="_blank">Download Résumé ↗</a>
+        </div>
+        <div class="about-stats reveal-up delay-2">
+          <div class="stat-card">
+            <span class="stat-num" data-target="1">0</span>
+            <span class="stat-plus">+</span>
+            <p>Years of Experience</p>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num" data-target="5">0</span>
+            <span class="stat-plus">+</span>
+            <p>Projects Completed</p>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num" data-target="3">0</span>
+            <span class="stat-plus">+</span>
+            <p>Conferences Presented</p>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num" data-target="98">0</span>
+            <span class="stat-plus">%</span>
+            <p>Dedication</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section class="work section" id="work">
+    <div class="container">
+      <div class="section-label reveal-up">02 — Work</div>
+      <h2 class="section-title reveal-up delay-1">Selected Projects</h2>
+      <div class="projects-grid">
+
+        <article class="project-card reveal-up delay-1" data-index="01">
+          <div class="project-img">
+            <div class="project-placeholder" style="--c1:#0f2027;--c2:#203a43;--c3:#2c5364;"></div>
+            <div class="project-overlay">
+              <a href="#" class="btn btn-sm">Live ↗</a>
+              <a href="#" class="btn btn-sm btn-ghost-sm">GitHub ↗</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-tags">
+              <span>Python</span><span>Deep Learning</span><span>Bioinformatics</span>
+            </div>
+            <h3>Diabetes Protein Classification Research</h3>
+            <p>Research-focused project exploring deep learning approaches for classifying diabetes-related proteins using sequence-based and structural features. The study investigates representation learning methods including embeddings, k-mer encoding, and structural information from AlphaFold to improve disease-specific protein classification performance.</p>
+          </div>
+        </article>
+
+        <article class="project-card reveal-up delay-2" data-index="02">
+          <div class="project-img">
+            <div class="project-placeholder" style="--c1:#1a1a2e;--c2:#16213e;--c3:#0f3460;"></div>
+            <div class="project-overlay">
+              <a href="#" class="btn btn-sm">Live ↗</a>
+              <a href="#" class="btn btn-sm btn-ghost-sm">GitHub ↗</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-tags">
+              <span>Machine Learning</span><span>Healthcare AI</span><span>Research</span>
+            </div>
+            <h3>Modality-Agnostic Research</h3>
+            <p>Research project at the Health Informatics Research Lab (HIRL), DIU, exploring modality-agnostic approaches for intelligent healthcare data analysis. Focused on building adaptable AI models capable of learning from multiple forms of biomedical data.</p>
+          </div>
+        </article>
+
+        <article class="project-card reveal-up delay-3" data-index="03">
+          <div class="project-img">
+            <div class="project-placeholder" style="--c1:#0d0d0d;--c2:#1a1a1a;--c3:#2d2d2d;"></div>
+            <div class="project-overlay">
+              <a href="#" class="btn btn-sm">Live ↗</a>
+              <a href="#" class="btn btn-sm btn-ghost-sm">GitHub ↗</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-tags">
+              <span>Java</span><span>OOP</span><span>Database</span>
+            </div>
+            <h3>E-Learning Platform</h3>
+            <p>An object-oriented e-learning platform developed with modular system architecture and user-focused design principles. Features course management, authentication systems, and interactive learning workflows built using core OOP concepts.</p>
+          </div>
+        </article>
+        
+
+        <article class="project-card reveal-up delay-1" data-index="04">
+          <div class="project-img">
+            <div class="project-placeholder" style="--c1:#111827;--c2:#1f2937;--c3:#374151;"></div>
+            <div class="project-overlay">
+              <a href="#" class="btn btn-sm">Live ↗</a>
+              <a href="#" class="btn btn-sm btn-ghost-sm">GitHub ↗</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-tags">
+              <span>OpenGL</span><span>C++</span><span>Computer Graphics</span>
+            </div>
+            <h3>3D Rural Village Scene</h3>
+            <p>An interactive 3D rural village simulation developed using OpenGL and GLUT featuring real-time animations, dynamic lighting, and multiple graphical algorithms including DDA, Bresenham, and Midpoint Circle implementations. Inspired by rural Bangladeshi environments and designed as a comprehensive Computer Graphics project.</p>
+          </div>
+        </article>
+
+<!--my added project card, you can replace the content with your actual project details and links.--->
+
+<article class="project-card reveal-up delay-1" data-index="04">
+          <div class="project-img">
+            <div class="project-placeholder" style="--c1:#111827;--c2:#1f2937;--c3:#374151;"></div>
+            <div class="project-overlay">
+              <a href="#" class="btn btn-sm">Live ↗</a>
+              <a href="#" class="btn btn-sm btn-ghost-sm">GitHub ↗</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>Node.js</span><span>MySQL</span>
+            </div>
+            <h3>Book Manager System</h3>
+            <p>A full-stack library management platform with real-time book tracking, borrower management, reservations, reviews, and secure authentication.</p>
+          </div>
+        </article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-label reveal-up">03 — Skills</div>
+      <h2 class="section-title reveal-up delay-1">Technologies I Work With</h2>
+      <div class="skills-grid reveal-up delay-2">
+        <div class="skill-group">
+          <h4>Programming & Development</h4>
+          <ul>
+            <li><span class="skill-bar" data-w="85"></span> Python <em>85%</em></li>
+            <li><span class="skill-bar" data-w="75"></span> Java <em>75%</em></li>
+            <li><span class="skill-bar" data-w="78"></span> OOP <em>78%</em></li>
+            <li><span class="skill-bar" data-w="72"></span> HTML/CSS <em>72%</em></li>
+            <li><span class="skill-bar" data-w="82"></span> C/C++ <em>82%</em></li>
+            <li><span class="skill-bar" data-w="76"></span> Problem Solving <em>76%</em></li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4>AI & RESEARCH</h4>
+          <ul>
+            <li><span class="skill-bar" data-w="80"></span> Machine Learning <em>80%</em></li>
+            <li><span class="skill-bar" data-w="72"></span> Deep Learning <em>68%</em></li>
+            <li><span class="skill-bar" data-w="80"></span> Research <em>80%</em></li>
+            <li><span class="skill-bar" data-w="55"></span> Docker / AWS <em>55%</em></li>
+            <li><span class="skill-bar" data-w="85"></span> Research & Documentation <em>85%</em></li>
+            <li><span class="skill-bar" data-w="70"></span> Data Analysis <em>70%</em></li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4>Tools &amp; Other</h4>
+          <ul>
+            <li><span class="skill-bar" data-w="90"></span> Git / GitHub <em>90%</em></li>
+            <li><span class="skill-bar" data-w="95"></span> VS Code / Development Tools <em>95%</em></li>
+            <li><span class="skill-bar" data-w="70"></span> MySQL <em>70%</em></li>
+            <li><span class="skill-bar" data-w="65"></span> OpenGL <em>65%</em></li>
+            <li><span class="skill-bar" data-w="70"></span> Compiler Design <em>70%</em></li>
+            <li><span class="skill-bar" data-w="70"></span> Linux Commands / CLI <em>75%</em></li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-label reveal-up">04 — Contact</div>
+      <div class="contact-inner reveal-up delay-1">
+        <h2 class="section-title">Let's Build Something<br />Together.</h2>
+        <p class="contact-sub">Currently exploring Machine Learning, Deep Learning, and software development through academic projects and research work. Open to collaborations, research discussions, and innovative ideas.</p>
+        <div class="contact-methods">
+          <a href="mailto:sirajsattik@gmail.com" class="contact-link">
+            <span class="contact-icon">✉</span>
+            sirajsattik@gmail.com
+          </a>
+
+
+<a href="mailto:siraj2305101768@diu.edu.bd" class="contact-link">
+            <span class="contact-icon">✉</span>
+            siraj2305101768@diu.edu.bd
+          </a>
+
+
+          <a href="https://www.linkedin.com/in/sattik-siraj/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BmyvHAvx%2BSiCzAapwswpiAQ%3D%3D" target="_blank" class="contact-link">
+            <span class="contact-icon">in</span>
+            linkedin.com/in/sattik-siraj
+          </a>
+          <a href="https://github.com/SattikSiraj" target="_blank" class="contact-link">
+            <span class="contact-icon">⌥</span>
+            github.com/SattikSiraj
+          </a>
+        </div>
+        <a href="mailto:sirajsattik@gmail.com" class="btn btn-primary btn-large">Send a Message →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="nav-logo">Sattik`S<span class="dot">.</span></span>
+      <p>© 2025 Sattik Siraj. Designed &amp; built with care.</p>
+      <div class="footer-links">
+        <a href="https://github.com/SattikSiraj" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/sattik-siraj" target="_blank">LinkedIn</a>
+        <a href="https://x.com/SattikSiraj" target="_blank">Twitter</a> 
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
